@@ -1,0 +1,27 @@
+{
+  "name": "ilograph-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-mocha -p tsconfig.json test/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianEder/ilograph-typescript.git"
+  },
+  "author": "Christian Eder",
+  "bugs": {
+    "url": "https://github.com/ChristianEder/ilograph-typescript/issues"
+  },
+  "homepage": "https://github.com/ChristianEder/ilograph-typescript#readme",
+  "devDependencies": {
+    "typescript": "4.8.4",
+    "@types/yaml": "1.9.7"
+  },
+  "dependencies": {
+    "yaml": "2.1.3"
+  }
+}
